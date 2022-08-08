@@ -1,0 +1,41 @@
+/* first row */
+.homefirst {
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+/* first row first column */
+.homefirst .oneone {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+/* first row second column */
+
+/* my image */
+.vatsal-img {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+/* second row whole column */
+.homesecond .col {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* second row first column */
+.homesecond img{
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+/* second row second column */
+.homesecond .twotwo{
+    text-align: justify;
+    padding-right: 100px;
+    padding-top: 100px;
+}
