@@ -17,3 +17,35 @@
     background-color: white;
     border-radius: 50%;
 }
+
+
+
+
+/* ---------------mobile--------- */
+
+@media only screen and (max-width: 600px){
+    .footericons {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    
+    .footericons a {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+    
+    .footericons a:hover {
+        color: black;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+}

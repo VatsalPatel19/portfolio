@@ -39,3 +39,61 @@
     padding-right: 100px;
     padding-top: 100px;
 }
+
+
+
+
+
+
+/* -----------------------Mobile screen---------------------------- */
+
+@media only screen and (max-width : 600px){
+    /* first row */
+.homefirst {
+    padding-top: 250px;
+    margin-bottom: 50px;
+}
+
+/* first row first column */
+.homefirst .oneone {
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+/* first row second column */
+
+/* my image */
+.vatsal-img {
+    width: 100%;
+    height: 90%;
+    border-radius: 50%;
+    margin-left: 0%;
+}
+
+/* second row whole column */
+.homesecond .col {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* second row first column */
+.homesecond img{
+    width: 100%;
+    height: 50%;
+    margin-left: 0%;
+    margin-top: 50%;
+}
+
+/* second row second column */
+.homesecond .twotwo{
+    text-align: justify;
+    margin-right: 5%;
+    padding-right: 0px;
+    padding-top: 0px;
+    
+}
+.homesecond .twotwo h4{
+    font-size: large !important;
+}
+
+}

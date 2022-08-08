@@ -37,7 +37,7 @@ export const Project = () => {
           <img src={gujarat} alt="Avatar" />
           <div className="container">
             <p className='text-center'>Gujarat Tourism Website</p>
-            <p>Developed using HTML, CSS, PHP.</p>
+            <p>Developed using HTML, CSS, PHP in my 2nd year of B.E.</p>
             <p className='text-center'><a href='https://gujarattourism65.000webhostapp.com/index.html' target="blank"><button type="button">View Project</button></a></p>
           </div>
         </div>

@@ -6,7 +6,6 @@
 .navbar h3{
     margin-left: 20px;
 }
-/* navbar on scroll */
 
 /* home about project part all together */
 .navbar-nav {
@@ -19,10 +18,54 @@
     font-size: xx-large !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
-    border-radius: 30px;
 }
 
 .nav-link:hover {
     text-decoration: underline;
     transform: scale(1.2, 1.2);
+}
+
+
+
+
+
+/* ---------------------------------FOR MOBILE --------------------*/
+
+
+
+@media only screen and (max-width: 600px){
+    /* whole navbar */
+.navbar {
+    position: fixed;
+    transition: 0.5s;
+}
+.navbar h3{
+    margin-left: 10px;
+}
+/* toggler icon */
+.navbar-toggler{
+    border-color: transparent;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    font-size: x-large;
+    border-radius: 20%;
+}
+/* home about project part all together */
+.navbar-nav {
+    margin-left: 0;
+}
+/* particular tab */
+.nav-link {
+    color: white !important;
+    font-size: larger !important;
+    text-align: center !important;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    transform: scale(1.2, 1.2);
+}
+
+
+
 }

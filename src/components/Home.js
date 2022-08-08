@@ -11,7 +11,7 @@ export const Home = () => {
           {/* first row first column   */}
           <div className='col oneone'>
             <h1 className='hello'>Hello!, My name is Vatsal Patel</h1>
-            <h2 className='welcome'>Welcome to My Portfolio</h2>
+            <h2 className='welcome'>Welcome to My Portfolio!</h2>
           </div>
           {/* first row second column   */}
           <div className='col onetwo'>
