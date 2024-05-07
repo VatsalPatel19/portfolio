@@ -1,99 +1,76 @@
 /* first row */
 .homefirst {
-    padding-top: 200px;
-    padding-bottom: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* first row first column */
 .homefirst .oneone {
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 /* first row second column */
+.homefirst .onetwo {
+    text-align: center;
+}
 
 /* my image */
 .vatsal-img {
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     border-radius: 50%;
-    margin-left: 25%;
 }
 
 /* second row whole column */
 .homesecond .col {
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 /* second row first column */
-.homesecond img{
-    width: 60%;
-    height: 100%;
-    margin-left: 20%;
+.homesecond img {
+    width: 100%;
+    height: auto;
 }
 
 /* second row second column */
-.homesecond .twotwo{
+.homesecond .twotwo {
     text-align: justify;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-right: 50px;
 }
-
-
-
-
-
 
 /* -----------------------Mobile screen---------------------------- */
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width: 600px) {
     /* first row */
-.homefirst {
-    padding-top: 250px;
-    margin-bottom: 50px;
-}
+    .homefirst {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
-/* first row first column */
-.homefirst .oneone {
-    padding-top: 0px;
-    padding-left: 20px;
-}
+    /* first row first column */
+    .homefirst .oneone {
+        padding-left: 20px;
+    }
 
-/* first row second column */
+    /* first row second column */
+    .homefirst .onetwo {
+        margin-top: 20px;
+    }
 
-/* my image */
-.vatsal-img {
-    width: 100%;
-    height: 90%;
-    border-radius: 50%;
-    margin-left: 0%;
-}
+    /* my image */
+    .vatsal-img {
+        width: 70%;
+        margin-left: 15%;
+    }
 
-/* second row whole column */
-.homesecond .col {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+    /* second row first column */
+    .homesecond img {
+        width: 90%;
+        margin-left: 5%;
+    }
 
-/* second row first column */
-.homesecond img{
-    width: 100%;
-    height: 50%;
-    margin-left: 0%;
-    margin-top: 50%;
-}
-
-/* second row second column */
-.homesecond .twotwo{
-    text-align: justify;
-    margin-right: 5%;
-    padding-right: 0px;
-    padding-top: 0px;
-    
-}
-.homesecond .twotwo h4{
-    font-size: large !important;
-}
-
+    /* second row second column */
+    .homesecond .twotwo {
+        padding-right: 20px;
+    }
 }
