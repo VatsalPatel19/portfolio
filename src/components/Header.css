@@ -2,14 +2,19 @@
 .navbar {
     position: fixed;
     transition: 0.5s;
+    width: 100%;
+    z-index: 1000;
 }
-.navbar h3{
+
+.navbar h3 {
     margin-left: 20px;
+    color: white;
+    transition: 0.5s;
 }
 
 /* home about project part all together */
 .navbar-nav {
-    margin-left: 800px;
+    margin-left: auto;
 }
 
 /* particular tab */
@@ -18,54 +23,42 @@
     font-size: xx-large !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
+    transition: 0.3s ease;
 }
 
 .nav-link:hover {
     text-decoration: underline;
     transform: scale(1.2, 1.2);
 }
-
-
-
-
 
 /* ---------------------------------FOR MOBILE --------------------*/
 
-
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     /* whole navbar */
-.navbar {
-    position: fixed;
-    transition: 0.5s;
-}
-.navbar h3{
-    margin-left: 10px;
-}
-/* toggler icon */
-.navbar-toggler{
-    border-color: transparent;
-}
-.navbar-toggler-icon{
-    background-color: white;
-    font-size: x-large;
-    border-radius: 20%;
-}
-/* home about project part all together */
-.navbar-nav {
-    margin-left: 0;
-}
-/* particular tab */
-.nav-link {
-    color: white !important;
-    font-size: larger !important;
-    text-align: center !important;
-}
-.nav-link:hover {
-    text-decoration: underline;
-    transform: scale(1.2, 1.2);
-}
+    .navbar h3 {
+        margin-left: 10px;
+    }
 
+    /* toggler icon */
+    .navbar-toggler {
+        border-color: transparent;
+    }
 
+    .navbar-toggler-icon {
+        background-color: white;
+        font-size: x-large;
+        border-radius: 20%;
+    }
 
+    /* home about project part all together */
+    .navbar-nav {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    /* particular tab */
+    .nav-link {
+        font-size: larger !important;
+        text-align: center !important;
+    }
 }
