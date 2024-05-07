@@ -10,6 +10,7 @@
     padding-left: 10px;
     padding-right: 10px;
     color: white;
+    transition: color 0.3s, background-color 0.3s, border-radius 0.3s;
 }
 
 .footericons a:hover {
@@ -18,12 +19,9 @@
     border-radius: 50%;
 }
 
-
-
-
 /* ---------------mobile--------- */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .footericons {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -31,7 +29,7 @@
         margin-left: 10px !important;
         margin-right: 10px !important;
     }
-    
+
     .footericons a {
         margin-left: 10px;
         margin-right: 10px;
@@ -41,11 +39,10 @@
         padding-bottom: 5px;
         color: white;
     }
-    
+
     .footericons a:hover {
         color: black;
         background-color: white;
         border-radius: 50%;
     }
-    
 }
